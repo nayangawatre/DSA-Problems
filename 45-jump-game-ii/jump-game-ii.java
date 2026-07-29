@@ -9,6 +9,9 @@ class Solution {
                 c++;
                 b=a;
             }
+            if(b>=nums.length-1){
+                break;
+            }
         }
         return c;
         
